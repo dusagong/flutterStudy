@@ -1,3 +1,4 @@
+import 'package:fast_part2/part2/ch8/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -6,16 +7,6 @@ void main() {
     theme: customTheme
     ));
 }
-final customTheme = ThemeData(
-  colorScheme: ColorScheme.light(
-        primary: Colors.indigo,
-        secondary: Colors.green,
-        tertiary: Colors.yellow
-      ),
-      appBarTheme: AppBarTheme(
-        backgroundColor: Colors.red
-      )
-);
 
 class HomeWidget extends StatelessWidget {
   const HomeWidget({super.key});
